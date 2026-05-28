@@ -1,8 +1,9 @@
-package com.example.service;
+package com.example.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.repository.FibonacciRepository;
+
+import com.example.demo.repository.FibonacciRepository;
 
 @Service
 public class FibonacciService 
@@ -30,7 +31,7 @@ public class FibonacciService
         
         else
         {
-            
+
 
 
 
