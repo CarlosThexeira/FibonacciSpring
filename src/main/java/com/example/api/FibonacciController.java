@@ -5,11 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMethod;
 import com.example.service.FibonacciService;
 
 @RestController
-@RequestMapping(value = "/getFibonacciNumberByIndex", method = RequestMethod.GET)
+@RequestMapping("/getFibonacciNumberByIndex")
 public class FibonacciController 
 {
     @Autowired
